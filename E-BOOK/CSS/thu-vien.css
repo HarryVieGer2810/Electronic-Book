@@ -1,0 +1,15 @@
+.library {
+    display: grid;
+}
+
+.row {
+    margin: 0 auto;
+    position: relative;
+}
+
+.book {
+    position: relative;
+    height: 50px;
+    width: 120px;
+    margin: 10px;
+}

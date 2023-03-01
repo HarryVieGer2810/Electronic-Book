@@ -1,0 +1,93 @@
+*{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.btn-thu-vien {
+    color: white;
+    background-color: grey;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.btn-thu-vien:hover {
+    background-color:black;
+    transition: 0.3s;
+}
+.products{
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: space-around;
+    /* background-color: grey; */
+}
+.item{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.btn-buynow {
+    color: white;
+    background-color: black;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.btn-buynow:hover {
+    background-color: grey;
+    transition: 0.3s;
+}
+.ads{
+    color: white;
+    background: radial-gradient(white, grey);
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-around;
+}
+.text{
+    position: relative;
+    align-items: center;
+
+    justify-content: center;
+}
+.btn-ads {
+    color: whitesmoke;
+    background-color: #146B3A;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.btn-ads:hover {
+    color: black;
+    background-color: #BB2528;
+    transition: 0.3s;
+}
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    padding-right: 12px;
+}
+.loginbtn {
+    color: white;
+    font-size: 16px;
+}
+.loginbtn:hover{
+    color: black;
+}
+.abc {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.abc:hover{
+    color:black;
+}

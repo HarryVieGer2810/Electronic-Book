@@ -1,0 +1,9 @@
+#book {
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+
+#hide_btn {
+    display: none;
+}

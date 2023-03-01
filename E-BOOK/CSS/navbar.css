@@ -1,0 +1,30 @@
+*{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+  background: white;
+}
+h1 {
+  font-weight: bold;
+}
+.navbar{
+  background: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a{
+  transition: 0.3s;
+  text-decoration: none;
+  color: grey;
+}
+nav ul li a:hover{
+  transition: 0.3s;
+  color: black;
+}
